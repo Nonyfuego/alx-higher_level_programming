@@ -1,5 +1,10 @@
 # 0x00. PYTHON - HELLO, WORLD
 
+## Description :speech_balloon:
+Higher-level programming projects for Holberton School Year 1 
+
+## Requeriments :bookmark_tabs:
+
 #### Python Scripts
 
 * Allowed editors: ```vi```, ```vim```, ```emacs```
@@ -36,7 +41,7 @@
 Git clone the repository:
 
 ```
-git clone https://github.com/Nonyfuego/alx-higher_level_programming.git
+git clone https://github.com/nonyfuego/alx-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
@@ -44,5 +49,4 @@ No known bugs.
 
 
 ## Authors :black_nib:
-**Nony Nzekwe** [Github](https://github.com/Nonyfuego)
-               
+**Nony Nzekwe** [Github](https://github.com/nonyfuego)
