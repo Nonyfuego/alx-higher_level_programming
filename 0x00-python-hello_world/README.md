@@ -36,7 +36,7 @@
 Git clone the repository:
 
 ```
-git clone https://github.com/cbarros7/holbertonschool-higher_level_programming.git
+git clone https://github.com/Nonyfuego/alx-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
