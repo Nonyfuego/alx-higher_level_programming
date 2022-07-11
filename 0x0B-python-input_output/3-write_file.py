@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""write_file
+# 3-write_file.py
+# Carlos Barros <1543@holbertonschool.com>
+""" File name : 3-write_file.py
 """
 
 
 def write_file(filename="", text=""):
-    """Takes str filename to read, and str text to write to
-    """
+    """write_file writes a string to a text file  (UTF8)
 
-    with open(filename, mode="w", encoding="utf-8") as writeFile:
-        writeFile.write(text)
-        return len(text)
+    Args:
+        filename (str): Defaults to "".
+        text (str): text to add. Defaults to "".
+    """
+    with open(filename, 'w', encoding='utf-8') as f:
+        return f.write(text)

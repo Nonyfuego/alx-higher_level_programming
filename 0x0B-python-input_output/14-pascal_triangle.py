@@ -1,31 +1,29 @@
 #!/usr/bin/python3
-"""pascal_triangle
+# 14-pascal_triangle.py
+# Carlos Barros <1543@holbertonschool.com>
+""" File name : 14-pascal_triangle.py
 """
 
 
 def pascal_triangle(n):
-    """ends of each list in the matrix are summed to display the next list
-    until the middle of the list. The number '1' is always at both ends.
+    """pascal_triangle
+
+    Args:
+        n (int): number
+
+    Returns:
+        [list]: list of lists of integers representing
+        the Pascal’s triangle of n
     """
     if n <= 0:
-        return []
+        return ""
 
-    res = []
-    for elem in range(n):
-        if elem == 0:
-            res.append([1])
-            continue
-        if elem == 1:
-            res.append([1, 1])
-            continue
-        row = []
-        # init row
-        for item in range(elem + 1):
-            row.append(item)
-        for item in range(1, elem):
-            row[0] = 1
-            row[elem] = 1
-            row[item] = res[elem - 1][item] + res[elem - 1][item - 1]
-        res.append(row)
-            
-    return res
+    triangle = [[1]]
+    for cur_row in range(1, n):
+        row = [1]
+        prev_row = triangle[cur_row - 1]
+        for elem in range(1, cur_row):
+            row.append(prev_row[elem] + prev_row[elem - 1])
+        row.append(1)
+        triangle.append(row)
+    return (triangle)

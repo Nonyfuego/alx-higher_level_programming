@@ -1,21 +1,27 @@
 #!/usr/bin/python3
-"""read_lines
+# 2-read_lines.py
+# Carlos Barros <1543@holbertonschool.com>
+""" File name : 2-read_lines.py
+    Use the with statement
+    It is not allowed to import any module
 """
-import os
 
 
 def read_lines(filename="", nb_lines=0):
-    """Takes in str filename to read, and n lines w/ int nb_lines
+    """read_lines reads n lines of a text file (UTF8) and prints it to stdout
+
+    Args:
+        filename (str): content of the file. Defaults to "".
+        nb_lines (int): number lines. Defaults to 0.
+
+    Returns:
+        str: returns the number of lines of a text file
     """
-
-
-    with open(filename, encoding="utf-8") as readFile:
-        lineNum = 0
-        while True:
-            line = readFile.readline()
-            lineNum += 1
-            print(line, end='')
-            if lineNum >= nb_lines and nb_lines > 0:
-                break 
-            if not line:
-                break
+    line_count = 0
+    with open(filename, 'r', encoding='utf-8') as f:
+        if nb_lines <= 0:
+            print(f.read(), end="")
+        for line in f:
+            if line_count < nb_lines:
+                print(line, end="")
+                line_count += 1

@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""append_write
+# 4-append_write.py
+# Carlos Barros <1543@holbertonschool.com>
+""" File name : 4-append_write.py
 """
 
 
 def append_write(filename="", text=""):
-    """Takes in str filename to write to, and str text to append to file
-    """
+    """append_write appends a string at the end of a text file (UTF8)
 
-    with open(filename, mode="a", encoding="utf-8") as appendFile:
-        appendFile.write(text)
-        return len(text)
+    Args:
+        filename (str): Defaults to "".
+        text (str): text to add. Defaults to "".
+    """
+    with open(filename, 'a', encoding='utf-8') as f:
+        return f.write(text)

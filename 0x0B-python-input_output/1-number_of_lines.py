@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-"""number_of_lines
+# 1-number_of_lines.py
+# Carlos Barros <1543@holbertonschool.com>
+""" File name : 1-number_of_lines.py
+    Use the with statement
+    It is not allowed to import any module
 """
 
 
 def number_of_lines(filename=""):
-    """Takes in str filename to read the number of lines
-    """
+    """number_of_lines: returns the number of lines of a text file:
 
-    with open(filename, encoding="utf-8") as readFile:
-        lines = 0
-        while True:
-            line = readFile.readline()
-            if not line:
-                break
-            lines += 1
-        return lines
+    Args:
+        filename (str): content of the file. Defaults to "".
+    """
+    with open(filename, 'r', encoding='utf-8') as f:
+        return len(f.readlines())
