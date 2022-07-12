@@ -1,7 +1,7 @@
-# HIGHER LEVEL PROGRAMMING - ALX School :robot:
+#HIGHER LEVEL PROGRAMMING - PYTHON PROGRAMMING  :robot:
 
 ## Description :speech_balloon:
-Higher-level programming projects for ALX school 
+Higher-level programming projects for Holberton School Year 1 
 
 ## Requeriments :bookmark_tabs:
 
@@ -18,13 +18,8 @@ Higher-level programming projects for ALX school
 Git clone the repository:
 
 ```
-git clone https://github.com/nonyfuego/alx-higher_level_programming.git
+git clone https://github.com/cbarros7/holbertonschool-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
 No known bugs.
-
-
-## Authors :black_nib:
-**Nony Nzekwe** [Github](https://github.com/nonyfuego)
-

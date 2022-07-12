@@ -1,4 +1,4 @@
-# 0x00. PYTHON - Import Modules
+# 0x00. PYTHON - more data structure
 
 ## Description :speech_balloon:
 Higher-level programming projects for Holberton School Year 1 
