@@ -1,4 +1,4 @@
-#HIGHER LEVEL PROGRAMMING - PYTHON PROGRAMMING  :robot:
+# HIGHER LEVEL PROGRAMMING - PYTHON PROGRAMMING  :robot:
 
 ## Description :speech_balloon:
 Higher-level programming projects for Holberton School Year 1 
