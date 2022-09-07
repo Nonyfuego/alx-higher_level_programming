@@ -1,5 +1,9 @@
 #!/usr/bin/node
-// script reverses a list
+// JS Script
 exports.esrever = function (list) {
-  return list.sort(() => 1);
+  let res = [];
+  for (let i = list.length - 1; i >= 0; i--) {
+    res.push(list[i]);
+  }
+  return res;
 };
