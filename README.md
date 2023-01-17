@@ -13,12 +13,6 @@ Higher-level programming projects for Holberton School Year 1
 * All your header files should be include guarded
 * All your files must be executable
 * The length of your files will be tested using wc
-
-## Quick start :runner:
-Git clone the repository:
-
-```
-git clone https://github.com/cbarros7/holbertonschool-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
